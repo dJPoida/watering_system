@@ -23,7 +23,23 @@
 // This pin controlls the attached LED
 #define PIN_LED D7
 
-// This pin simply registered whether the battery is low or not.
+// This pin simply registerd whether the battery is low or not.
 #define PIN_BATTERY D2
+
+// This is the virtual pin in the Blynk APP that displays the terminal
+#define PIN_BLYNK_TERMINAL V1
+
+// Place your Blynk Auth Token in here
+// You should get Auth Token in the Blynk App.
+// Go to the Project Settings (nut icon).
+char blynkAuthToken[] = "";
+
+// Your WiFi credentials.
+// Set password to "" for open networks.
+char ssid[] = "";
+char pass[] = "";
+
+// Comment this out to disable prints and save space
+#define BLYNK_PRINT Serial
 
 #endif
