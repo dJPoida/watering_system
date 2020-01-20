@@ -3,6 +3,14 @@ dJPoida's automated garden watering system.
 
 This is a simple project for activating a water pump that sits inside a small reservoir to regularly water my herbs because I'm a numpty and always seem to forget. Homemade pizza is much nicer with fresh Basil, Oregano and Chilli!
 
+![Hey there](https://github.com/dJPoida/watering_system/blob/master/photos/Hey%20there.jpg)
+![Nozzle among the green](https://github.com/dJPoida/watering_system/blob/master/photos/Nozzle%20among%20the%20green.jpg)
+![Nozzle up close](https://github.com/dJPoida/watering_system/blob/master/photos/Nozzle%20up%20close.jpg)
+![Off the printer](https://github.com/dJPoida/watering_system/blob/master/photos/Off%20the%20printer.jpg)
+![Electronics](https://github.com/dJPoida/watering_system/blob/master/photos/Electronics.jpg)
+![Reservoir](https://github.com/dJPoida/watering_system/blob/master/photos/Reservoir.jpg)
+![Reservior Lid](https://github.com/dJPoida/watering_system/blob/master/photos/Reservior%20Lid.jpg)
+
 ## Dependencies
 ### Arduino
 The code for this project is written for the Arduino platform.
