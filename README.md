@@ -29,3 +29,14 @@ This project leverages the [Blynk IoT platform](https://blynk.io/) for remote ma
 
 ## Workflow
 ![Workflow](https://github.com/dJPoida/watering_system/blob/master/designs/workflow.png)
+
+## SPIFFS Cache file
+The data stored in SPIFFS is nothing complex and simply assists in the determination of next watering time.
+
+- Line 1: Date last executed watering routine (stored as a `long` formatted `YYYYMMDD`)
+- Line 2: Time of day last executed watering routine (stored as a `long` in 24hr format `HHMMSS`)
+```
+20200119
+160212
+```
+The above data indicates that the watering routine was last executed at 4:02:12pm on January 19, 2020.
